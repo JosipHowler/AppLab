@@ -12,8 +12,7 @@ Web stranica je o izmišljenoj mobilnoj aplikaciji te ima lazni tekst na njoj ko
 * CSS
 * JavaScript
 * AOS library
-Iz ovog projekta sam bolje naučio se koristiti za animacijama i tranzicijama pomoću AOS-a te bolje
-razumijem CSS flexbox.
+#### Iz ovog projekta sam bolje naučio se koristiti za animacijama i tranzicijama pomoću AOS-a te bolje razumijem CSS flexbox.
 ### Kako pokrenuti web stranicu
 Skidanjem datoteke i otvaranjem index.html datoteke će pokrenuti web stranicu
 ### Krediti
