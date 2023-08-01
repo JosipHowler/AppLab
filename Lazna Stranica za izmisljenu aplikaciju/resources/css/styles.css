@@ -1,0 +1,358 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+/*--------------------------------------- Pocetak Header dijela ---------------------------------------*/
+header{
+    position: relative;
+    top: 5vh;
+    margin-bottom: 10vh;
+}
+
+.nav-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    font-weight: bold;
+    color: #FFA500;
+    margin-right: 60vh;
+    font-size: 2rem;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+.logo > .logo-2{
+    color: #242f51;
+}
+
+.nav-section > nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > a{
+    text-decoration: none;
+    color: #616368;
+    cursor: pointer;
+    margin-right: 5vh;
+    font-size: 1rem;
+}
+
+.free-button{
+    color: white;
+    width: 14vh;
+    height: 4.5vh;
+    background-color: #2563ff;
+    border: none;
+    border-radius: 30px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    z-index: 10;
+}
+
+.hero-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-left{
+    margin-right: 30vh;
+}
+
+.hero-left > .hero-heading{
+    font-weight: bold;
+    font-size: 4rem;
+    color: #242f51;
+    line-height: 1.4;
+}
+
+.phone{
+    position: relative;
+    z-index: 10;
+}
+
+.hero-left > p{
+    font-size: 1rem;
+    color: #616368;
+    margin-bottom: 3vh;
+}
+
+.hero-left-bottom > a{
+    color: #2500F9;
+    margin-left: 5vh;
+    position: relative;
+    z-index: 10;
+    text-decoration: none;
+}
+
+.building-decoration{
+    position: fixed;
+    bottom: 0;
+}
+
+.circle-decoration{
+    position: absolute;
+    top: 10vh;
+    z-index: 5;
+}
+/*--------------------------------------- Kraj Header dijela ---------------------------------------*/
+
+/*--------------------------------------- Pocetak Companies dijela ---------------------------------------*/
+.companies-section{
+    position: relative;
+    top: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 35vh;
+}
+
+.companies-section > p{
+    font-size: 1rem;
+    color: #616368;
+    margin-bottom: 5vh;
+}
+
+.companies > img{
+    margin-left: 3vh;
+    margin-right: 3vh;
+}
+/*--------------------------------------- Kraj Companies dijela ---------------------------------------*/
+
+/*--------------------------------------- Pocetak features dijela ---------------------------------------*/
+.features{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 20vh;
+}
+
+.features-right{
+    margin-right: 15vh;
+    margin-left: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.heading > h2{
+    font-size: 2rem;
+    color: #242f51;
+    margin-bottom: 1vh;
+}
+
+.heading > p{
+    font-size: 1rem;
+    color: #616368;
+    margin-bottom: 4vh;
+}
+
+.features-div{
+    margin-bottom: 5vh;
+}
+
+.first-feature{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first-feature > div > h3{
+    color: #f55767;
+}
+
+.first-feature > div > p{
+    font-size: 1rem;
+    color: #616368;
+}
+
+.second-feature{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.second-feature > div > h3{
+    color: #2563ff;
+}
+
+.second-feature > div > p{
+    font-size: 1rem;
+    color: #616368;
+}
+
+.third-feature{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.third-feature > div > h3{
+    color: #40975f;
+}
+
+.third-feature > div > p{
+    font-size: 1rem;
+    color: #616368;
+}
+/*--------------------------------------- Kraj features dijela ---------------------------------------*/
+
+/*--------------------------------------- Pocetak Why choose our app dijela ---------------------------------------*/
+.choose-app-section{
+    margin-bottom: 7vh;
+}
+
+.choose-app-heading{
+    text-align: center;
+    margin-bottom: 7.5vh;
+}
+
+.choose-app-heading > h2{
+    font-size: 2rem;
+    color: #242f51;
+    margin-bottom: 1vh;
+    line-height: normal;
+}
+
+.choose-app-heading > p{
+    font-size: 1rem;
+    color: #616368;
+}
+
+.choose-app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.choose-app-1{
+    display: flex;
+    text-align: center;
+    margin-bottom: 7.5vh;
+}
+
+.choose-app-1 > div{
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
+
+.choose-app-1 > div > img{
+    margin-bottom: 2vh;
+}
+
+.choose-app-1 > div > h3{
+    font-size: 1.3rem;
+    color: #242f51;
+    margin-bottom: 1vh;
+}
+
+.choose-app-1 > div > p{
+    font-size: 1rem;
+    color: #616368;
+}
+
+.choose-app-2{
+    display: flex;
+    text-align: center;
+}
+
+.choose-app-2 > div{
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
+
+.choose-app-2 > div > img{
+    margin-bottom: 2vh;
+}
+
+.choose-app-2 > div > h3{
+    font-size: 1.3rem;
+    color: #242f51;
+    margin-bottom: 1vh;
+}
+
+.choose-app-2 > div > p{
+    font-size: 1rem;
+    color: #616368;
+}
+/*--------------------------------------- Kraj why choose our app dijela ---------------------------------------*/
+
+hr{
+    margin-bottom: 7vh;
+}
+
+/*--------------------------------------- Pocetak donwload dijela ---------------------------------------*/
+.download-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download-left > h2{
+    font-size: 2rem;
+    color: #242f51;
+    margin-bottom: 2vh;
+}
+
+.download-left > p{
+    font-size: 16px;
+    color: #616368;
+    margin-bottom: 2vh;
+}
+
+.download-left > div > img{
+    margin-right: 2vh;
+}
+/*--------------------------------------- Kraj download dijela ---------------------------------------*/
+
+/*--------------------------------------- Pocetak footer dijela ---------------------------------------*/
+footer{
+    background-color: #242f51;
+    height: 30vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.logo-bottom{
+    font-weight: bold;
+    color: #FFA500;
+}
+
+.logo-bottom-2{
+    color: white;
+}
+
+footer > h3{
+    font-size: 1.3rem;
+    color: white;
+}
+
+footer > a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+footer > p{
+    color: #616368;
+}
+/*--------------------------------------- Kraj footer dijela ---------------------------------------*/
